@@ -233,27 +233,19 @@ canvas
 	
 }
 
-p{
-	font-size: 1.7rem!important;
+
+
+
+@media screen and (min-width: 600px) {
+	h1{
+		font-size: 1.5rem !important;
+	}
+	h3{
+		font-size: 1.1rem !important;
+	}
+	p{
+		font-size: 0.7rem !important;
+	}
+
 }
 
-h3{
-	font-size: 2.8rem !important;
-}
-
-/* Masquer la barre de défilement sur tous les navigateurs modernes */
-.no-scrollbar {
-    overflow: hidden !important;
-}
-
-/* Pour masquer la barre de défilement tout en conservant le défilement sur les éléments */
-.scrollable {
-    overflow: auto !important; /* Ou scroll si vous voulez une barre de défilement uniquement quand nécessaire */
-    scrollbar-width: none !important; /* Pour Firefox */
-    -ms-overflow-style: none !important;  /* Pour Internet Explorer et Edge */
-}
-
-/* Cacher la barre de défilement sur Webkit (Chrome, Safari) */
-.scrollable::-webkit-scrollbar {
-    display: none !important;
-}
